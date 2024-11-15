@@ -355,6 +355,9 @@ GameObject:
   - component: {fileID: 1037186229}
   - component: {fileID: 1037186231}
   - component: {fileID: 1037186230}
+  - component: {fileID: 1037186234}
+  - component: {fileID: 1037186233}
+  - component: {fileID: 1037186232}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -491,6 +494,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 1595836960529904159, guid: f4223354eeb0e0d46b76997647687d37, type: 3}
   rigidbody: {fileID: -7401101691620746628, guid: f4223354eeb0e0d46b76997647687d37, type: 3}
+--- !u!114 &1037186232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037186223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106ef2d31fb527146adba1a7801d4ed3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireBallPrefabs: {fileID: 5970749655856346548, guid: 97bb3c647a420b046b3ddfdcea60218e, type: 3}
+--- !u!114 &1037186233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037186223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e974f10afcae2ee48b32f28d854ee05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healEffect: {fileID: 5541458185343803897, guid: 0eafbf09e2f58b2419182e4e4108375a, type: 3}
+--- !u!114 &1037186234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037186223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3dccf9c7463a743abf2d67c5d1596d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skill: {fileID: 1037186233}
+  tip: {fileID: 153822734}
+  player: {fileID: 1037186227}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
